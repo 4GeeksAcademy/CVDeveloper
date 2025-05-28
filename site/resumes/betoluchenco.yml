@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis Alberto
+    last_name: Pecho Encinas
+    
+    # Define yourself in 4-5 words
+    motto: multitarea
+    
+    # Focus
+    focus: work
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Probando.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fc%2FLuisAlbertoConquer&psig=AOvVaw2xPudY5T4OLYgdxVevwHfn&ust=1747493306703000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDut4CeqI0DFQAAAAAdAAAAABAE
+
+    # Contact Information
+    email: luiscias@hotmail.es #optional
+    phone: 658 2342 342 #optional
+    website: betoluchenco.com #optional
+    linkedin: betoluchenco #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: betoluchenco
+    
+    twitter: 'betoluchenco' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Catalán
+        level: C1
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Cine
+
+      - item: Deportes varios
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4geeks academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Diseño y desarrollo aplicaciones web completas, desde el backend hasta el frontend. 
+        Trabajo con tecnologías como Node.js, Express, React, MongoDB y PostgreSQL, 
+        integrando APIs, optimizando rendimiento y asegurando una experiencia de usuario fluida. 
+        También implemento prácticas de control de versiones (Git), 
+        pruebas y despliegue en la nube (como AWS o Vercel).
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Full Stack Developer
+      time: 2025 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Como Full Stack Developer, soy responsable del desarrollo completo de aplicaciones web, 
+        abarcando tanto el frontend como el backend. Diseño arquitecturas escalables, 
+        desarrollo interfaces intuitivas y responsivas, y construyo APIs robustas para garantizar una comunicación eficiente entre el cliente y el servidor. 
+        Trabajo en todas las etapas del ciclo de vida del software: desde la planificación y el desarrollo hasta las pruebas, despliegue y mantenimiento. 
+        Colaboro estrechamente con equipos multidisciplinarios para entregar soluciones eficientes, 
+        seguras y alineadas con los objetivos del negocio..
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Aquí presento una selección de proyectos personales y colaborativos donde he aplicado mis habilidades como Full Stack Developer.
+      Estos proyectos incluyen desde sitios web responsivos hasta aplicaciones completas con integración de APIs y bases de datos.
+
+    assignments:
+      - title: Velocity
+        project_logo: https://betoluchenco.com/
+        link: "#hook"
+        tagline: "Sitio web responsivo creado para startups, enfocado en la promoción y venta de productos digitales."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
